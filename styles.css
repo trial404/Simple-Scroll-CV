@@ -187,6 +187,11 @@ hr {
   margin-top: 150px;
   text-align: left;
   justify-content: space-between;
+  display: flex;
+}
+
+.skill-col-img{
+  align-self: center;
 }
 
 .skills-image {
@@ -232,7 +237,7 @@ hr {
 .bottom-container{
   width: 100%;
   min-height: 20vh;
-  background: #e4e7e9;
+background: #102c38;
   padding-bottom: 75px;
   text-align: center;
 }
@@ -242,14 +247,25 @@ hr {
   text-align: center;
 }
 
+.contact-me h1 {
+  padding-top: 150px;
+  color: #9bb1be;
+}
+
 .contact-me h3 {
   padding-top: 75px;
+  color: white;
 }
 
 .contact-me p {
   padding-top: 25px;
+  color: white;
+}
+
+.bottom-container p{
+  color: white;
 }
 
 .icon {
-  color: #102c38;
+  color: white;
 }
